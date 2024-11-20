@@ -1,4 +1,5 @@
 import 'package:clean_shift/firebase_options.dart';
+import 'package:clean_shift/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'routes.dart';
@@ -18,12 +19,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Machine Test',
       theme: ThemeData(
+        fontFamily: "GowunDodum",
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/login', // Start with the Login screen
+      initialRoute: '/home', // Start with the Login screen
       routes: AppRoutes.getRoutes(),
+      home: HomeScreen(),
     );
   }
 }
