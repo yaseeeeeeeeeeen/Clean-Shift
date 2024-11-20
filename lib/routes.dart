@@ -9,7 +9,7 @@ import 'screens/profile/profile_screen.dart';
 class AppRoutes {
   static Map<String, WidgetBuilder> getRoutes() {
     return {
-      '/login': (context) => LoginScreen(),
+      '/login': (context) => const LoginScreen(),
       '/otp': (context) => OtpScreen(),
       '/home': (context) => HomeScreen(),
       '/services': (context) => ServiceListingScreen(),

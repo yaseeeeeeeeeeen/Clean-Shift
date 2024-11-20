@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349702139952",
+    "project_id": "clean-swift-95ce1",
+    "storage_bucket": "clean-swift-95ce1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349702139952:android:35f649d3f9b7a7045cbdf5",
+        "android_client_info": {
+          "package_name": "com.example.clean_shift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAskffIoBpWQprxs4rX5fhNoHTb3B7fz8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
